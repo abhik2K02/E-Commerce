@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCBookStore</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- csss link -->
+    <link rel="stylesheet" href="pro.css">
+    <!-- bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./bklogo.png" class="img-fluid" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Books📚
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#newreleases">New Releases</a></li>
+              <li><a class="dropdown-item" href="#bestsellers">Best Sellers</a></li>
+              <li><a class="dropdown-item" href="#top-cate">Top Catogories</a></li>
+              <li><a class="dropdown-item" href="#deal">Deal of the Day</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success me-1" type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item mr-2 me-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accounts <i class="bi bi-person-circle"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://dcbookstore.com/users/login">LOG-IN</a></li>
+                  <li><a class="dropdown-item" href="https://dcbookstore.com/users/register">Sign UP</a></li>
+                </ul>
+              </li>
+            <li class="nav-item mr-2 me-3">
+              <a class="nav-link" href="https://dcbookstore.com/users/login"><i class="bi bi-heart-fill"></i>FAV'S</a></li>
+              <li class="nav-item mr-2 me-3">
+                <a class="nav-link" href="https://dcbookstore.com/carts/myshoppingcart"><i class="bi bi-cart-check-fill"></i>Bag</a></li>
+
+      </div>
+    </div>
+  </nav>
+  <br>
+
+
+  <!-- carousal -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousal">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./crimg1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./crimg.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./crimg2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br><br>
+
+  <!-- about -->
+  <section id="about">
+  <div class="abt-cnt">
+    <h1 class="text-center">About DC BOOKS</h1>
+    <p class="m-5">DC Books is a publisher and bookseller with headquarters in Kottayam, Kerala, India. It published over 6500 titles, mainly literature in Malayalam[citation needed], but also including children's literature, poetry, reference, biography, self-help, yoga, management titles, and foreign translations.
+
+      DC Media, is the media division of DC Books. DC Media publishes 5 magazines namely, Education Insider, Asia's leading magazine on education, Future Medicine, magazine on Asian medical industry and Emerging Kerala, Kerala's fastest growing magazine on business, economy and society, Money Indices and Travel and Flavors. DC Books was founded in 1974 by Dominic Chacko Kizhakemuri, known as D. C. Kizhakemuri or just DC amongst literary Kerala. </p>
+      
+      <section id="abtx">
+      <div class="row  p-4">
+        <div class="col-6">
+            <h2 class="text-center">Achievements</h2>
+            <p class="m-3">- In 2004 alone, won five awards in the General, Reference, Paperback, House Magazine , and Catalogues categories for their: Malayalam Encyclopedia, Thesaurus, Charithrakaandom, Pachakuthira. <br>
+               - DC Books was the first publishers/book sellers in India to get ISO 9000 Certification.</p>
+              </div>
+        <div class="col-6">
+            <h2 class="text-center">DC Books Clubs & Festivals</h2>
+            <p class="m-3">The DC International Book Fair offers book releases and exhibitions. The Fair also features youth contests in Spot Poetry Writing, English Quiz, Malayalam Quiz, Street Drama - Malayalam, Declamation, Pen A Story, Special Schools Only, Film Appreciation, English Reading, Malayalam Reading, Painting, and Readers Theatre.</p>
+            </div>
+          </div>
+        </section>
+        </div>
+      </section>
+        
+
+        <!-- BOOKS -->
+        <section id="newreleases">
+        <div class="containerr">
+          <div class="row m-5 p-3">
+              <div class="col-md-12">
+                <h1 class="text-center text-dark"><a href="https://dcbookstore.com/books/newreleases">NEW RELEASES</a></h2><br>
+                  <!-- Your section content goes here -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./nere.jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KAALAM SAAKSHI</h5>
+                <h6>By : OOMMEN CHANDY</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹650</del> ₹585</p>
+                <center><a href="https://dcbookstore.com/books/kaalam-saakshi" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ALCHEMIST</h5>
+                <h6>By : PAULO COELHO</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹275</del> ₹275</p>
+                <center><a href="https://dcbookstore.com/books/alchemist-35th-anniversary-edition" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AMMA VARAKKUNNA VEEDU</h5>
+                <h6>By : GANESH PUTHOOR</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹150</del> ₹135</p>
+                <center><a href="https://dcbookstore.com/books/amma-varakkunna-veedu" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ONE BY ONE</h5>
+                <h6>By : ANWAR ABDULLA</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹410</del> ₹369</p>
+                <center><a href="https://dcbookstore.com/books/one-by-one" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KINNAR KAILASA YATHRA</h5>
+                <h6>By : BABU JOHN</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹160</del>₹144</p>
+                <center><a href="https://dcbookstore.com/books/kinnar-kailasa-yathra" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PATHIRAALEELA</h5>
+                <h6>By : K N PRASANTH</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹180</del> ₹162</p>
+                <center><a href="https://dcbookstore.com/books/pathiraaleela" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SHAVAMTHEENIKAL</h5>
+                <h6>By : OMANAKKUTTAN C R</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹160</del> ₹144</p>
+                <center><a href="https://dcbookstore.com/books/shavamtheenikal" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./nere8.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">OZHUKKU</h5>
+                <h6>By : CARYL LEWIS</h6>
+                <p class="card-text">★★★★★</p>
+                <p class="lead"><del class="text-muted">₹299</del> ₹270</p>
+                <center><a href="https://dcbookstore.com/books/ozhukku" class="btn btn-primary">View Details</a></center>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- best sellers 1 -->
+        <section id="bestsellers">
+          <div class="containerr">
+            <div class="row m-5 p-2">
+                <div class="col-md-12">
+                  <h1 class="text-center text-light"><a href="https://dcbookstore.com/books/bestsellers">BEST SELLERS</a></h2><br>
+                
+                    <!-- best sellers 2 -->
+                    <div class="row row-cols-1 row-cols-md-6 g-3 p-2">
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs1.jpg" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">SNEHAM KAMA...</h5>
+                            <h6>By :  Joseph Annam...</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹350</del> ₹270</p>
+                            <center><a href="https://dcbookstore.com/books/sneham-kamam-bhranthu" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Ram C/O Anandhi</h5>
+                            <h6>By :  Akhil P Dharmarajan</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹399</del> ₹308</p>
+                            <center><a href="https://dcbookstore.com/books/ram-co-anandhi" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs3.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ANARCHY</h5>
+                            <h6>By :  William Dalrymple</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹750</del> ₹675</p>
+                            <center><a href="https://dcbookstore.com/books/anarchy" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs4.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">KASA PILASA</h5>
+                            <h6>By : ANIL DEVASSY</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹430</del> ₹387</p>
+                            <center><a href="https://dcbookstore.com/books/kasa-pilasa" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs5.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">LIFEBUOY</h5>
+                            <h6>By :  PRASANTH...IAS</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹260</del> ₹190</p>
+                            <center><a href="https://dcbookstore.com/books/lifebuoy" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs6.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">QABAR</h5>
+                            <h6>By :  K. R. MEERA</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹130</del> ₹98</p>
+                            <center><a href="https://dcbookstore.com/books/qabar" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs7.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">PONNIYIN SEL...</h5>
+                            <h6>By :  Kalkki Krish...</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹1,199</del> ₹919</p>
+                            <center><a href="https://dcbookstore.com/books/ponniyin-selvan-2-volumes-paper-back" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs8.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">PONAM</h5>
+                            <h6>By :  K N PRASANTH</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹330</del> ₹298</p>
+                            <center><a href="https://dcbookstore.com/books/ponam" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs9.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">NINGAL</h5>
+                            <h6>By :  M. MUKUNDAN</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹399</del> ₹349</p>
+                            <center><a href="https://dcbookstore.com/books/ningal" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs10.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">SEX 21</h5>
+                            <h6>By :  Muralee Thumma...</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹255</del> ₹169</p>
+                            <center><a href="https://dcbookstore.com/books/sex-21" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs11.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">AUGUST 17</h5>
+                            <h6>By :  S. HAREESH</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹399</del> ₹308</p>
+                            <center><a href="https://dcbookstore.com/books/august-17" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./bs12.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ANTICLOCK</h5>
+                            <h6>By :  V. J. JAMES</h6>
+                            <p class="card-text">★★★★★</p>
+                            <p class="lead"><del class="text-muted">₹380</del> ₹342</p>
+                            <center><a href="https://dcbookstore.com/books/anticlock" class="btn btn-primary">View Details</a></center>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+</section>
+
+
+<!-- top catogories -->
+<section id="top-cate">
+  <div class="containerr">
+    <div class="row m-5">
+        <div class="col-md-12"><br>
+          <h1 class="text-center text-dark"><a href="">TOP CATEGORIES</a></h2>
+          
+            <!-- top-cat -->
+            <div class="row row-cols-1 row-cols-md-6 g-5 p-3">
+              <div class="col">
+                <div class="card">
+                  <img src="./bs1.jpg" alt="...">
+                   <center><a class="btn" href="https://dcbookstore.com/category/short-stories">Short Stories</a></center>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./tp1.jpg" class="card-img-top" alt="...">
+                    <center><a href="https://dcbookstore.com/category/health-fitness" class="btn">Health & Fitness</a></center>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./tp2.jpg" class="card-img-top" alt="...">
+                    <center><a href="https://dcbookstore.com/category/humour" class="btn">Humour</a></center>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./tp3.jpg" class="card-img-top" alt="...">
+                    <center><a href="https://dcbookstore.com/category/history" class="btn">History</a></center>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./tp4.jpg" class="card-img-top" alt="...">
+                    <center><a href="https://dcbookstore.com/category/novel" class="btn">Novel</a></center>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./tp5.jpg" class="card-img-top" alt="...">
+                  <center><a href="https://dcbookstore.com/category/memoirs" class="btn ">Memories</a></center>
+                  </div>
+                </div>
+              </div>
+</section>
+
+
+<!-- deal of the day -->
+<section id="deal">
+  <div class="containerr">
+    <div class="row m-5 ">
+        <div class="col-md-12"><br>
+          <h1 class="text-center text-dark"><a href="https://dcbookstore.com/bundleoffers/bundleoffer">DEAL OF THE DAY</a></h2>
+            <!-- deals -->
+  <div class="row row-cols-1 row-cols-md-6 g-4 p-5">
+    <div class="col">
+      <div class="card">
+        <a href="https://dcbookstore.com/bundleoffers/details/history-collection"><img class="img-fluid" src="dfd1.jpeg" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">HISTORY COLLECTION</h5>
+          <p class="lead"><del class="text-muted">₹2,447</del> ₹1,899</p>
+        </div>
+      </div>
+    </div>
+    
+      <div class="col">
+        <div class="card">
+          <a href="https://dcbookstore.com/bundleoffers/details/must-read-history-books"><img class="img-fluid" src="dfd2.jpeg" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title"> Must Read History Books</h5>
+            <p class="lead"><del class="text-muted">₹2,428</del> ₹1,849</p>
+          </div>
+        </div>
+      </div>
+      
+        <div class="col">
+          <div class="card">
+            <a href="https://dcbookstore.com/bundleoffers/details/gandhi"><img class="img-fluid" src="dfd3.jpeg" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">GANDHI(India before & after)</h5>
+              <p class="lead"><del class="text-muted">₹1,898</del> ₹1,414</p>
+            </div>
+          </div>
+        </div>
+        
+          <div class="col">
+            <div class="card">
+              <a href="https://dcbookstore.com/bundleoffers/details/valentine-gift-set-1"><img class="img-fluid" src="dfd4.jpg" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">VALENTINE GIFT SET 1</h5>
+                <p class="lead"><del class="text-muted">₹1,025</del> ₹799</p>
+              </div>
+            </div>
+          </div>
+          
+            <div class="col">
+              <div class="card">
+                <a href="https://dcbookstore.com/bundleoffers/details/kamala-subramaniam-epics-476882588969"><img class="img-fluid" src="dfd5.jpg" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Epics of Kamala Subramaniam</h5>
+                  <p class="lead"><del class="text-muted">₹2,299</del> ₹1749</p>
+                </div>
+              </div>
+            </div>
+              <div class="col">
+                <div class="card">
+                  <a href="https://dcbookstore.com/bundleoffers/details/before-the-beginning-combo"><img class="img-fluid" src="dfd6.jpeg" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Before the Beginning combo</h5>
+                    <p class="lead"><del class="text-muted">₹350</del> ₹270</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- contact -->
+<section id="contact">
+  <div class="container">
+    <h1 class="text-center">CONTACT US</h1>
+    <div class="row" style="margin-top: 50px;">
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <i class="bi bi-telephone-fill"> PHONE</i>
+        <h6>+91 72900 92216 </h6>
+      </div>
+    </div>
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <i class="bi bi-envelope-fill"> E-MAIL</i>
+        <h6>customercare@dcbookshop.net</h6>
+      </div>
+    </div>
+
+  
+  <div class="row" style="margin-top: 30px;">
+  <div class="col-md-4 py-3 py-md-0">
+    <input type="text" class="form-control form-control" placeholder="Name">
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <input type="text" class="form-control form-control" placeholder="E-Mail">
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <input type="text" class="form-control form-control" placeholder="Phone">
+  </div>
+
+  <div class="form-group" style="margin-top: 30px;">
+  <textarea class="form-control" id=""  rows="5" placeholder="Message..."></textarea>
+  </div>
+  
+  <div id="messagebtn" class="text-center"><button>SEND</button></div>
+  </div>
+</div>
+</section>
+<br>
+
+<section id="follow">
+<h1 class="flw text-center">Follow US</h1>
+<div class="icon-container">
+  <div class="icon"><i class="bi bi-instagram"></i></div>
+  <div class="icon"><i class="bi bi-facebook"></i></div>
+  <div class="icon"><i class="bi bi-twitter-x"></i></div>
+  <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
+</div>
+
+</section>
+
+<!-- footer -->
+<footer class="mt-5 bg-body-secondary pt-3">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 g-2">
+        <h2 class="fs-3">DC BOOKS</h2>
+        <p class="fs-6">
+           First ISO certified <br>
+          book industry in India
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook m-1"></i>
+          <i class="fa-brands fa-twitter m-1"></i>
+          <i class="fa-brands fa-instagram m-1"></i>
+          <i class="fa-brands fa-youtube m-1"></i>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 g-2">
+        <h2 class="fs-3">About</h2>
+        <p>About Us</p>
+        <p>Features</p>
+        <p>New & Blog</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 g-2">
+        <h2 class="fs-3">SAFE & SECURE SHOPPING</h2>
+        <p>Product Enquiry</p>
+        <p>Online Purchase Enquiry</p>
+        <p>Product Complaints</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 g-2">
+        <h2 class="fs-3">Support</h2>
+        <p>FAQS</p>
+        <p>Support Center</p>
+        <p>Contact Us</p>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+      <div class="">
+        <p>&copy;Copyright @ 2023, Current Books India Private Limited. All rights reserved</p>
+      </div>
+      <div class="">
+        <span>Terms & Agreements</span>
+        <span>Privacy Policy</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
